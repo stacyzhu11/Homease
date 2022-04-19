@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Quiz</title>
+</head>
+<body>
+  <div class="quizContainer">
+    <div class="quizBody">
+      <div class="quiz_set active">
+        <h4 class="opening_quiz">Welcome to Homease👋</h4>
+        <h5>This quick quiz will allow us to help you find the best rental that suits your needs!</h5>
+      </div>
+      <div class="quiz_set">
+        <h4 class="quiz_q">Select your ideal city!</h4>
+          <select name = “city”>
+            <option value = “denver”>Denver</option>
+            <option value = “lakeville”>Lakeville</option>
+            <option value = “miami”>Miami</option>
+            <option value = “norfolk”>Norfolk</option>
+            <option value = “texas”>Texas</option>
+          </select>
+      </div>
+      <div class="quiz_set">
+        <h4 class="quiz_q">Does your home need to be wheelchair accessible?</h4>
+        <button class="quiz_selection">yes</button>
+        <button class="quiz_selection">no</button>
+      </div>
+      <div class="quiz_set">
+        <h4 class="quiz_q">Does your shower need to be accessible?</h4>
+        <button class="quiz_selection">yes</button>
+        <button class="quiz_selection">no</button>
+      </div>
+      <div class="quiz_set">
+        <h4 class="quiz_q">Does your parking need to be accessible?</h4>
+        <button class="quiz_selection">yes</button>
+        <button class="quiz_selection">no</button>
+      </div>
+      <div class="quiz_set">
+        <h4 class="quiz_q">Does your home need to be near public transport?</h4>
+        <button class="quiz_selection">yes</button>
+        <button class="quiz_selection">no</button>
+      </div>
+      <div class="quiz_set">
+        <h4 class="quiz_q">Does your home need to have fewer stairs?</h4>
+        <button class="quiz_selection">yes</button>
+        <button class="quiz_selection">no</button>
+      </div>
+      <div class="quiz_set">
+        <h4 class="quiz_q">Your Listings await!</h4>
+        <form>
+        <button class="show-listings" formaction="listings.html">Show me my listings!</button>
+        </form>
+    </div>
+  <div class="quizFooter">
+    <button id="next">next</button>
+  </div>
+  </div>
+  <script src="quiznew.js"></script>
+</body>
+</html>
